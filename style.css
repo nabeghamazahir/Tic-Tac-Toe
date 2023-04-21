@@ -3,13 +3,14 @@ body {
   position: absolute;
   padding: 100px;
   background-color: black;
+  color: white;
 }
 
 h1 {
   animation: colorFade 3s infinite;
   text-align: center;
   text-decoration: rgb(254, 254, 254) underline;
-  color: aliceblue;
+  
 }
 
 @keyframes colorFade {
@@ -33,7 +34,8 @@ main {
   flex: 1 1 1;
   height: 100px;
   width: 100px;
-  color: white;
+color: aliceblue;
+  
 }
 
 .box1 {

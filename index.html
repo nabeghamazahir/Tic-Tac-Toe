@@ -7,8 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <h1>Tic Tac Toe</h1>
+    <h2>Playing...</h2>
 
     <main class="board">
       <div class="box1"></div>
@@ -23,10 +25,37 @@
     </main>
     <script>
       var main = document.querySelector(".board");
+      var turn = 1;
+      var divs = document.querySelectorAll("div");
+      var h2 = document.querySelector("h2");
+
+      function checkWinner() {
+        if (
+          divs[0].textContent === "x" &&
+          divs[1].textContent === "x" &&
+          divs[2].textContent === "x"
+        ) {
+          h2.textContent = "Player 1 WON";
+        } 
+      }
 
       function mainFunction(event) {
-        event.target.textContent = "x";
+        if (event.target.tagName === "DIV") {
+          if (event.target.textContent != "") {
+            alert('click on another box')
+          } else {
+            if (turn === 1) {
+              event.target.textContent = "x";
+              turn = 2;
+            } else {
+              event.target.textContent = "y";
+              turn = 1;
+            }
+          }
+        }
+        checkWinner();
       }
+
       var player1;
       main.addEventListener("click", mainFunction);
     </script>
