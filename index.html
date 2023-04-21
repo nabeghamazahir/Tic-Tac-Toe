@@ -11,6 +11,7 @@
   <body>
     <h1>Tic Tac Toe</h1>
     <h2>Playing...</h2>
+    <p></p>
 
     <main class="board">
       <div class="box1"></div>
@@ -28,25 +29,85 @@
       var turn = 1;
       var divs = document.querySelectorAll("div");
       var h2 = document.querySelector("h2");
+      var gameActive = true;
 
       function checkWinner() {
-         
+        if (
+          divs[0].textContent === "x" &&
+          divs[1].textContent === "x" &&
+          divs[2].textContent === "x"
+        ) {
+          h2.textContent = "Player 1 WON";
+          gameActive = false;
+        } else if (
+          divs[3].textContent === "x" &&
+          divs[4].textContent === "x" &&
+          divs[5].textContent === "x"
+        ) {
+          h2.textContent = "Player 1 WON";
+          gameActive = false;
+        } else if (
+          divs[6].textContent === "x" &&
+          divs[7].textContent === "x" &&
+          divs[8].textContent === "x"
+        ) {
+          h2.textContent = "Player 1 WON";
+          gameActive = false;
+        } else if (
+          divs[0].textContent === "x" &&
+          divs[3].textContent === "x" &&
+          divs[6].textContent === "x"
+        ) {
+          h2.textContent = "Player 1 WON";
+          gameActive = false;
+        } else if (
+          divs[1].textContent === "x" &&
+          divs[4].textContent === "x" &&
+          divs[7].textContent === "x"
+        ) {
+          h2.textContent = "Player 1 WON";
+          gameActive = false;
+        } else if (
+          divs[2].textContent === "x" &&
+          divs[5].textContent === "x" &&
+          divs[8].textContent === "x"
+        ) {
+          h2.textContent = "Player 1 WON";
+        } else if (
+          divs[0].textContent === "x" &&
+          divs[4].textContent === "x" &&
+          divs[8].textContent === "x"
+        ) {
+          h2.textContent = "Player 1 WON";
+        } else if (
+          divs[2].textContent === "x" &&
+          divs[4].textContent === "x" &&
+          divs[6].textContent === "x"
+        ) {
+          h2.textContent = "Player 1 WON";
+          gameActive = false;
+        }
       }
 
       function mainFunction(event) {
-        if (event.target.tagName === "DIV") {
-          if (event.target.textContent != "") {
-            alert('click on another box')
-          } else {
-            if (turn === 1) {
-              event.target.textContent = "x";
-              turn = 2;
+        if (gameActive === false) {
+          document.querySelector("p").textContent = "please restart game";
+        } else {
+          if (event.target.tagName === "DIV") {
+            if (event.target.textContent != "") {
+              alert("click on another box");
             } else {
-              event.target.textContent = "y";
-              turn = 1;
+              if (turn === 1) {
+                event.target.textContent = "x";
+                turn = 2;
+              } else {
+                event.target.textContent = "y";
+                turn = 1;
+              }
             }
           }
         }
+
         checkWinner();
       }
 

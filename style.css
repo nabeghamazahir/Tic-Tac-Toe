@@ -12,6 +12,9 @@ h1 {
   text-decoration: rgb(254, 254, 254) underline;
   
 }
+p {
+   
+}
 
 @keyframes colorFade {
   10% {
