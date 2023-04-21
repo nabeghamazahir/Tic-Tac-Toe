@@ -1,0 +1,100 @@
+body {
+  margin: 20px;
+  position: absolute;
+  padding: 100px;
+  background-color: black;
+}
+
+h1 {
+  animation: colorFade 3s infinite;
+  text-align: center;
+  text-decoration: rgb(254, 254, 254) underline;
+  color: aliceblue;
+}
+
+@keyframes colorFade {
+  10% {
+    color: black;
+  }
+  30% {
+    color: white;
+  }
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, auto);
+}
+
+/* grid-template-columns: 150px 150px 150px; */
+/* grid-template-rows: 150px 150px 150px; */
+.board > div {
+  flex: 1 1 1;
+  height: 100px;
+  width: 100px;
+  color: white;
+}
+
+.box1 {
+  border: 5px solid white;
+  border-top: none;
+  border-left: none;
+}
+
+.box2 {
+  border: 5px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.box3 {
+  border: 5px solid white;
+  border-top: none;
+  border-right: none;
+}
+
+.box4 {
+  flex: 1 1 1;
+  height: 100px;
+  width: 100px;
+  border: 5px solid white;
+  border-top: none;
+  border-left: none;
+}
+
+.box5 {
+  border: 5px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.box6 {
+  border: 5px solid white;
+  border-top: none;
+  border-right: none;
+}
+
+.box7 {
+  border: 5px solid white;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.box8 {
+  border: 5px solid white;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.box9 {
+  border: 5px solid white;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+}
