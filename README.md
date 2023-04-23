@@ -1,7 +1,7 @@
 # Tic Tac Toe
 This project is a web version of the popular game - Tic Tac Toe.
 
-## :computer: [Click here](#https://nabeghamazahir.github.io/Tic-Tac-Toe/) to see my live project!
+## :computer: [Click here](https://nabeghamazahir.github.io/Tic-Tac-Toe/) to see my live project!
 
 ## :page_facing_up: About
 - How to use my awesome project.
