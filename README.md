@@ -17,7 +17,7 @@ $ node app.js
 - Talk about approach to the problem.
 - Add screenshots/drawings of doodles/plans during the planning phase.
 - Flow charts of app logic.
-![Wireframing](https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
+![Wireframing](https://raw.githubusercontent.com/nabeghamazahir/Tic-Tac-Toe/main/Blank%20diagram.png)
 
 ## :rocket: Cool tech
 - HTML - structure the web page.
