@@ -4,14 +4,6 @@ This project is a web version of the popular game - Tic Tac Toe.
 ## :computer: [Click here](https://nabeghamazahir.github.io/Tic-Tac-Toe/) to see my live project!
 
 ## :page_facing_up: About
-- How to use my awesome project.
-- Download instructions (if relevant):
-```zsh
-$ git clone my-awesome-app
-$ cd my-awesome-app
-$ node app.js
-```
-- Add in-app screenshots.
 
 ## :pencil2: Planning & Problem Solving
 - Talk about approach to the problem.
