@@ -3,11 +3,7 @@ This project is a web version of the popular game - Tic Tac Toe.
 
 ## :computer: [Click here](https://nabeghamazahir.github.io/Tic-Tac-Toe/) to see my live project!
 
-## :page_facing_up: About
-
 ## :pencil2: Planning & Problem Solving
-- Talk about approach to the problem.
-- Add screenshots/drawings of doodles/plans during the planning phase.
 - Flow charts of app logic.
 ![Wireframing](https://raw.githubusercontent.com/nabeghamazahir/Tic-Tac-Toe/main/Blank%20diagram.png)
 
