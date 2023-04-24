@@ -5,6 +5,7 @@ This project is a web version of the popular game - Tic Tac Toe.
 
 ## :pencil2: Planning & Problem Solving
 - Flow charts of app logic.
+- 
 ![Wireframing](https://raw.githubusercontent.com/nabeghamazahir/Tic-Tac-Toe/main/Blank%20diagram.png)
 
 ## :rocket: Cool tech
